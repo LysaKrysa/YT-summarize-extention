@@ -80,10 +80,10 @@ To enable summarization, replace `API_KEY_HERE` in `popup.js` with your OpenAI A
 
 ## Screenshots 🖼️
 
-> You can add screenshots of the popup here for better demo.
+![Screenshot1](./Assets/screenshot.png)
 
 ---
 
 ## License 📝
 
-This project is licensed under the **MIT License**
+This project is licensed under the [MIT License](LICENSE)
