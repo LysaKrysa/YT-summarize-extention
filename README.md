@@ -23,7 +23,7 @@ YouTube Transcript is a Chrome extension that fetches the transcript of the curr
 
 1. Clone or download this repo:
    ```bash
-   git clone https://github.com/yourusername/youtube-transcript-extension.git
+   git clone https://github.com/LysaKrysa/YT-summarize-extention
    ```
 
 2. Open Chrome and go to:
@@ -45,8 +45,8 @@ YouTube Transcript is a Chrome extension that fetches the transcript of the curr
 2. Click the extension icon.
 3. Hit **"Load Transcript"**.
 4. Choose:
-   - ✅ *Include Timestamps*
-   - 🤖 *Summarize Transcript* (uses OpenAI API)
+   - *Include Timestamps*
+   - *Summarize Transcript* (uses OpenAI API)
 5. View results in the text area.
 
 ---
