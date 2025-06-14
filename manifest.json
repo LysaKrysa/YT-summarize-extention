@@ -1,0 +1,29 @@
+{
+  
+  "manifest_version": 3,
+  "name": "YouTube Transcript Popup",
+  "version": "1.0",
+  "description": "Fetches YouTube transcript and shows it in a popup.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+  "https://api-inference.huggingface.co/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Show Transcript"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ]
+  
+}

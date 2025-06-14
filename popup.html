@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>YouTube Transcript</title>
+  <style>
+    body { width: 400px; padding: 10px; font-family: sans-serif; }
+    textarea { width: 100%; height: 300px; }
+    button { padding: 8px 16px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <button id="load">Load Transcript</button>
+  <label>
+    <input type="checkbox" id="timestamps" checked />
+    Include Timestamps
+  </label>
+  <label>
+    <input type="checkbox" id="summarize" />
+    Summarize Transcript
+  </label>
+  <textarea readonly placeholder="Transcript will appear here..."></textarea>
+  <script src="popup.js"></script>
+</body>
+
+</html>
